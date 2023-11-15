@@ -16,12 +16,13 @@ function About() {
       return () => window.removeEventListener('scroll', handleScroll);
   })
 
-  const zoomFactor = 1 + offsetY * 0.0001
-
+  const isMobile = window.innerWidth <= 768;
+  const bottomValue = isMobile ? 'auto' : `${offsetY * 0.3}px`;
+  const zoomFactor = isMobile ? 1 : 1 + offsetY * 0.0005
   
 
   return (
-      <div className='aboutmain' style={{bottom:`${offsetY * 0.3}px`, backgroundSize: `${zoomFactor * 100}% auto`}} >
+      <div className='aboutmain' style={{ bottom: bottomValue, backgroundSize: `${zoomFactor * 100}% auto` }} >
       
       <img src={cloud} alt="" className='cloud8'style={{bottom:`${offsetY * 0.5}px`}} />
       <img src={cloud} alt="" className='cloud9'style={{bottom:`${offsetY * 0.5}px`}} />

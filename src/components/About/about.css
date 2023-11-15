@@ -85,7 +85,6 @@
     .texta{
         margin-top: 120px;
         margin-left: 100px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 20px;
     }
     .l{
@@ -94,6 +93,18 @@
     .para{
         max-width: 600px;
         margin-top: 40px;
+    }
+    .aboutmain{
+        background-attachment: scroll;
+    }
+    .cloud4{
+        display: none;
+    }
+    .cloud5{
+        display: none;
+    }
+    .cloud8{
+       
     }
     
 }

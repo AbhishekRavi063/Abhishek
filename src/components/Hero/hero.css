@@ -112,9 +112,8 @@
   @media screen and (max-width:768px){
     .heromain {
         height: 70vh;
-        width: 100vw;
         background-size: contain;
-        background-position: center top;
+        background-position:top center;
         background-repeat: no-repeat;
         background-attachment: scroll;
       }
@@ -129,6 +128,18 @@
       .text{
         margin-top:200px;
         margin-left: 200px;
+    }
+    .cloud1{
+      position: static;
+    }
+    .cloud2{
+        position: static;
+    }
+    .cloud3{
+        display: none;
+    }
+    .cloud10{
+        display: none;
     }
       
   } 

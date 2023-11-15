@@ -91,7 +91,8 @@
         background-size: contain;
         background-position: center top;
         background-repeat: no-repeat;
-        margin-top: -200px;
+        margin-top: -230px;
+        background-attachment: scroll;
       }
       .logo{
         height: 40px;
@@ -123,5 +124,8 @@
       .sl{
         width: 60px;
         margin-left: 20px;
+    }
+    .cloud10{
+        position: static;
     }
 }

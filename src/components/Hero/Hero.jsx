@@ -22,6 +22,8 @@ function Hero() {
 
     const zoomFactor = isMobile ? 1 : 1 + offsetY * 0.0005
 
+    const bottomValue = isMobile ? 'auto' : `${offsetY * 0.3}px`;
+
     const downloadPDF = () => {
       const link = document.createElement('a');
       link.href = '../../Assets/Resume.pdf'
@@ -32,7 +34,7 @@ function Hero() {
     };
 
   return (
-    <div className='heromain' style={{backgroundSize: `${zoomFactor * 100}% auto`, bottom: `${offsetY * 0.3}px`}}>
+    <div className='heromain' style={{backgroundSize: `${zoomFactor * 100}% auto`,  bottom: bottomValue}}>
       <Navbar/>
        
        <div className="text" >

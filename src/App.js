@@ -7,16 +7,17 @@ import Skills from './components/skills/Skills'
 import Hover from './components/hover/Hover'
 import Works from './components/works/Works'
 import Scrolll from './components/hover/Scrolll'
-import Contact from './components/contact/Contact'
+
 
 
 function App() {
+  const isMobile = window.innerWidth <= 768;
   return (
     <div className='app'>
       <Hero/>
       <About/>
       <Skills/>
-      <Hover/>
+      {!isMobile && <Hover />}
       <Works/>
       <Scrolll/>
       

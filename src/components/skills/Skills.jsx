@@ -31,11 +31,14 @@ function Skills() {
       
       return () => window.removeEventListener('scroll', handleScroll);
   })
+  const isMobile = window.innerWidth <= 768;
 
-  const zoomFactor = 1 + offsetY * 0.0001
+  const zoomFactor = isMobile ? 1 : 1 + offsetY * 0.0005
+
+  const bottomValue = isMobile ? 'auto' : `${offsetY * 0.3}px`;
 
   return (
-      <div className='skillsmain' style={{bottom:`${offsetY * 0.3}px`, backgroundSize: `${zoomFactor * 100}% auto`,marginBottom: '0'}} >
+      <div className='skillsmain' style={{bottom:bottomValue, backgroundSize: `${zoomFactor * 100}% auto`}} >
       
       <img src={cloud} alt="" className='cloud8'style={{left:`${offsetY * 0.5}px`}} />
       <img src={cloud} alt="" className='cloud10'style={{right:`${offsetY * 0.5}px`}} />

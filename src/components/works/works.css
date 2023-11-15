@@ -109,5 +109,10 @@
     .card img{
       height: 300px;
     }
+    .worksmain{
+      position: static;
+      margin-top: -300px;
+      background-attachment: scroll;
+    }
   }
   

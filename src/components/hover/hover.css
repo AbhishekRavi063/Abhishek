@@ -80,6 +80,8 @@ span {
     .nav-wrapper{
         bottom: -70px;
         height: 700px;
+        position: static; /* Fix the position */
+        margin-top: -690px;
     }
     span{
         font-size: 50px;
