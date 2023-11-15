@@ -115,4 +115,39 @@
       background-attachment: scroll;
     }
   }
+  @media screen and (max-width:380px) {
+    .card {
+      width: 330px; 
+      height: 200px;
+    }
+    .card img{
+      height: 300px;
+    }
+    .worksmain{
+      position: static;
+      margin-top: -300px;
+      background-attachment: scroll;
+      height: 600px;
+    }
+    .rpost{
+      padding-left: 20px;
+      margin-top: 80px;
+    }
+    .workh{
+      font-size: 25px;
+      margin-left: 0;
+      text-align: center;
+  
+    }
+    .lw{
+      width: 70px;
+      margin: auto;
+    }
+    .wtt{
+      margin: auto;
+      width: 150px;
+      height: 50px;
+      margin-top: -60px;
+    }
+  }
   

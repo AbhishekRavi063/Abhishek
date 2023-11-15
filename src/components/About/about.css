@@ -108,3 +108,27 @@
     }
     
 }
+@media screen and (max-width:380px) {
+    .texta{
+        margin-top: 50px;
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    .l{
+        width: 55px;
+    }
+    .para{
+        max-width: 300px;
+    }
+    .aboutmain{
+        background-attachment: scroll;
+        height: 700px;
+        background-position: top;
+    }
+   .ad{
+    margin: auto;
+    
+    width: 100px;
+   }
+    
+}

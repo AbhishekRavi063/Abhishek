@@ -40,9 +40,11 @@ function Works() {
 
   return (
     <div className='worksmain'>
+      
+      <div className="wtt">
       <h1 className="workh">WORKS</h1>
       <div className="lw"></div>
-
+      </div>
       <div
         className="rpost"
         ref={rpostRef}

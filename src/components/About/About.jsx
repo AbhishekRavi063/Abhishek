@@ -28,9 +28,11 @@ function About() {
       <img src={cloud} alt="" className='cloud9'style={{bottom:`${offsetY * 0.5}px`}} />
       
        <div className="texta" >
+        <div className="ad">
        <h1 className="about">ABOUT</h1>
        <div className="l"></div>
-       
+       </div>
+
        <p className="para" >Greetings, I'm Abhishek,a pre-final year btech CSE student at NCERC,Thrissur. Currently residing in Palakkad, I excel as a freelance full-stack web developer, having secured victory in a national-level hackathon. My professional journey includes a two-month internship at UST Global, an esteemed MNC. Beyond academia, I contribute actively to IEEE as a dedicated volunteer and hold the position of Webmaster at PES Kerala Chapter. Additionally, I am a co-founder of Knowlumi, an innovative edtech startup. My commitment to excellence and passion for technology drive my pursuit of impactful projects and collaborations.</p>
       </div>
       

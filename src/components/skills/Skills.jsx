@@ -44,8 +44,10 @@ function Skills() {
       <img src={cloud} alt="" className='cloud10'style={{right:`${offsetY * 0.5}px`}} />
       
        <div className="texta" >
+        <div className="sd">
        <h1 className="skillt">SKILLS</h1>
        <div className="sl"></div>
+       </div>
        <div className="skills">
        <div className="r1">  
        

@@ -129,3 +129,48 @@
         position: static;
     }
 }
+@media screen and (max-width:380px) {
+    .skillsmain{
+        height: 600px;
+    }
+    .logo{
+        height: 20px;
+    }
+    .logon{
+        height: 10px;
+        margin-top: 40px;
+    }
+    .r1{
+        margin-left: -30px;
+        gap: 30px;
+        margin-top: -10px;
+    }
+    .r2{
+        margin-left: -30px;
+        gap: 30px;
+        margin-top: -10px;
+      }
+      .r3{
+        margin-left: -30px;
+        gap: 35px;
+        margin-top: -10px;
+      }
+      .r4{
+        margin-left: -30px;
+        gap: 35px;
+        margin-top: -10px;
+      }
+      .skillt{
+        font-size: 20px;
+        text-align: center;
+      }
+      .sl{
+        width: 40px;
+        height: 2px;
+        margin: auto;
+      }
+      .sd{
+        margin: auto;
+        width: 100px;
+      }
+}

@@ -82,3 +82,27 @@
   }
   
 }
+@media screen and (max-width:380px) {
+  .contactmain{
+    margin-top: 100px;
+  }
+  .contactt{
+    font-size: 15px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .mail{
+    font-size: 10px;
+  }
+  .line{
+   display: none;
+
+  }
+ .social{
+  height: 15px;
+ }
+ .socials{
+  gap: 30px;
+  margin-top: 10px;
+ }
+}

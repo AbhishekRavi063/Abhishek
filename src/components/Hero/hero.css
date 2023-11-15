@@ -144,4 +144,30 @@
       
   } 
   
+@media screen and (max-width:380px){
+    .heromain {
+        height: 70vh;
+        background-size: contain;
+        background-position:top center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+      }
+    .name{
+        font-size: 50px;
+      }
+    .stack{
+        font-size: 30px;
+        max-width: 400px;
+        font-weight: 9;
+      }
+    .text{
+        margin-top:100px;
+        margin-left: 60px;
+    }
+    .cv{
+       height: 40px;
+       width: 100px;
+   }
+      
+} 
   
