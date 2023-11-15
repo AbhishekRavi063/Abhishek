@@ -16,7 +16,11 @@ function Hero() {
         return () => window.removeEventListener('scroll', handleScroll);
     })
 
-    const zoomFactor = 1 + offsetY * 0.0005
+
+
+    const isMobile = window.innerWidth <= 768;
+
+    const zoomFactor = isMobile ? 1 : 1 + offsetY * 0.0005
 
     const downloadPDF = () => {
       const link = document.createElement('a');
