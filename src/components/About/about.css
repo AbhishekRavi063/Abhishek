@@ -1,0 +1,99 @@
+.aboutmain{
+    background-image: url('../../Assets/forest.jpg');
+    background-size: cover;
+    height: 940px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.texta{
+    margin-top: 120px;
+    margin-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.l{
+    background-color: black;
+    height: 3px;
+    width: 140px;
+    margin-left: 20px;
+}
+.para{
+    color: white;
+    max-width: 1000px;
+    margin-top: 80px;
+}
+.cloud4{
+    width: 50%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain the aspect ratio */
+    opacity: 0.4;
+    position: absolute;
+    bottom: 140px;
+    
+}
+.cloud5{
+    width: 50%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain the aspect ratio */
+    opacity: 0.4;
+    position: absolute;
+    bottom: 300px;
+    left: 700px;
+}
+.cloud6{
+    width: 50%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain the aspect ratio */
+    position: absolute;
+    
+}
+.cloud7{
+    width: 50%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain the aspect ratio */
+    position: absolute;
+    left: 400px;
+}
+.cloud8{
+    width: 50%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain the aspect ratio */
+    opacity: 0.4;
+    position: absolute;
+    
+    
+}
+.cloud9{
+    width: 50%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain the aspect ratio */
+    opacity: 0.4;
+    position: absolute;
+    left: 500px;
+    
+}
+
+@media screen and (max-width:1250px) {
+    .texta{
+        font-size: 20px;
+    }
+    .aboutmain{
+        height: 720px;
+    }
+    .para{
+        max-width: 700px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .texta{
+        margin-top: 120px;
+        margin-left: 100px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+    }
+    .l{
+        width: 80px;
+    }
+    .para{
+        max-width: 600px;
+        margin-top: 40px;
+    }
+    
+}

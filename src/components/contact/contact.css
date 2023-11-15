@@ -1,0 +1,80 @@
+.contactmain {
+  background-color: rgba(173, 216, 230, 0.1); /* Light blue with 30% transparency */
+  height: 220px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+  margin-top: 100px;
+  transition: box-shadow 0.3s ease, backdrop-filter 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.contactmain:hover {
+  box-shadow: 0 0 10px 10px antiquewhite;
+  backdrop-filter: blur(20px);
+}
+
+.contactmain:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
+  z-index: 1;
+}
+
+.contactt {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(246, 243, 243);
+  margin-top: 30px;
+  margin-left: 100px;
+  text-align: center;
+  z-index: 2;
+}
+
+.social {
+  height: 40px;
+  margin-top: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 50px;
+  z-index: 2;
+}
+
+.line {
+  background-color: black;
+  height: 60px;
+  width: 1px;
+}
+
+.mail {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.social:hover {
+  transform: scale(1.1);
+  z-index: 3;
+}
+@media screen and (max-width:1250px) {
+  .social{
+    height: 30px;
+  }
+}
+@media screen and (max-width:768px){
+  .mail{
+    font-size:20px;
+  }
+  .contactt{
+    text-align: center;
+  }
+}

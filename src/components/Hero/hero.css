@@ -1,0 +1,135 @@
+.heromain {
+    background-image: url('../../Assets/hero.jpg');
+    background-size: cover;
+    background-position: center top; /* Center horizontally, top aligned */
+    background-position-y: -510px; /* Shift the background image up by 200px */
+    height: 950px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.text{
+    margin-top: 270px;
+    margin-left: 300px;
+}
+.hi{
+    color: rgb(177, 185, 179);
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+.name{
+   font-size: 100px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.stack{
+    color: white;
+    font-size: 60px;
+    max-width: 550px;
+    font-weight: 10;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cloud1{
+    width: 50%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain the aspect ratio */
+    opacity: 0.6;
+    position: absolute;
+    pointer-events: none;
+}
+.cloud2{
+    width: 50%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain the aspect ratio */
+    opacity: 0.6;
+    position: absolute;
+    left: 770px;
+    bottom: 100px;
+    pointer-events: none;
+}
+.cloud3{
+    width: 50%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain the aspect ratio */
+    opacity: 0.6;
+    position: absolute;
+    left: 400px;
+    pointer-events: none;
+}
+.cloud10{
+    width: 50%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain the aspect ratio */
+    opacity: 0.6;
+    position: absolute;
+    left: 400px;
+    pointer-events: none;
+}
+.cv {
+    height: 50px;
+    width: 110px;
+    border: none;
+    color: aliceblue;
+    background: rgba(0, 0, 255, 0.4); /* Semi-transparent blue background */
+    border-radius: 10px;
+    margin-top: 20px;
+    backdrop-filter: blur(5px); /* Adding the glass-like blur effect */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    z-index: 2;
+    /* Animation on hover */
+    transform: scale(1);
+    transition-duration: 0.5s;
+  }
+  
+.cv:hover {
+    background: rgba(0, 0, 255, 0.6); /* Darker blue on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.6); /* Adding shadow on hover */
+    transform: scale(1.1); /* Scale up on hover */
+  }
+  @media screen and (max-width:1250px) {
+    .heromain{
+        height: 720px;
+    }
+    .text{
+        margin-top: 60px;
+    }
+    .hi{
+        font-size: 40px;
+    }
+    .name{
+        font-size: 90px;
+    }
+    .stack{
+        font-size: 50px;
+    }
+    .cloud2{
+        left: 550px; 
+    }
+    .cloud3{
+        display: none;
+    }
+    .cloud10{
+        display: none;
+    }
+  }
+  @media screen and (max-width:768px){
+    .heromain {
+        height: 70vh;
+        width: 100vw;
+        background-size: contain;
+        background-position: center top;
+        background-repeat: no-repeat;
+      }
+      .name{
+        font-size: 60px;
+      }
+      .stack{
+        font-size: 50px;
+        max-width: 400px;
+        font-weight: 9;
+      }
+      .text{
+        margin-top:200px;
+        margin-left: 200px;
+    }
+      
+  } 
+  
+  

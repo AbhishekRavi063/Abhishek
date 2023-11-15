@@ -1,0 +1,21 @@
+.navmain{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.list{
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+.item{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo{
+    margin-top: 25px;
+    margin-left: 30px;
+}
